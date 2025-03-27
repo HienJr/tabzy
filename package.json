@@ -1,0 +1,25 @@
+{
+    "name": "tabzy",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "minify": "terser src/tabzy.js -o tabzy.min.js && csso src/tabzy.css -o tabzy.min.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/HienJr/tabzy.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/HienJr/tabzy/issues"
+    },
+    "homepage": "https://github.com/HienJr/tabzy#readme",
+    "devDependencies": {
+        "csso-cli": "^4.0.2",
+        "terser": "^5.39.0"
+    }
+}
